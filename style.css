@@ -1,0 +1,28 @@
+body{
+    font-family: cursive;
+    color: #000;
+    background-color: beige;
+}
+.slide-show{
+    background-color: rgb(226, 168, 98);
+    font-family: cursive;
+    color: #000;
+}
+.info-bar{
+    background-color: rgb(228, 180, 117);
+}
+.about{
+    color: #000;    
+}
+.navbar{
+    background-color:beige ;
+    border: 1px solid rgb(238, 238, 224);
+}
+.blog-body{
+    padding: 30px;
+}
+.fine{
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
