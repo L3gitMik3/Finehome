@@ -17,6 +17,13 @@ body{
 .navbar{
     background-color:beige ;
     border: 1px solid rgb(238, 238, 224);
+    position: fixed;
+    
+    width: 90%;
+    z-index: 11;
+     position: static;
+    width: 100%;
+
 }
 .blog-body{
     padding: 30px;
@@ -25,4 +32,21 @@ body{
     color: orange;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+.carousel-text{
+    z-index: 10;
+    transform: translate( -50%,-50%);
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    color: orangered;
+    position: absolute;
+    width: 90%;
+}
+.carousel-item{
+    z-index: 1;
+    position: absolute;
+}
+.carousel-container{
+    height: 500px;
 }
